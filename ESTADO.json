@@ -1,0 +1,11 @@
+{
+  "estado": "listo",
+  "pruebas": "79 pasan, 0 fallan",
+  "resumen": "Extractor de facturas AFIP en PDF con reglas (pdfplumber + regex), validación de CUIT, sumas y CAE, respaldo opcional con Claude por httpx, procesamiento de carpeta con hash, exportación a Excel (Facturas/Revisar/Resumen), CSV y JSON y webhook con reintentos. Demo sin claves con IA y ERP simulados ('python -m facturas demo').",
+  "pendiente": [
+    "Probar las reglas con PDF reales de AFIP y de otros sistemas de facturación (las pruebas usan PDF generados con reportlab que imitan el formato AFIP)",
+    "Probar el respaldo con IA contra la API real de Anthropic con una clave (en las pruebas está simulada)",
+    "Moneda extranjera y cotización no se guardan todavía",
+    "Exportadores específicos de ERP (Tango, Xubio, Colppy) se arman por cliente"
+  ]
+}

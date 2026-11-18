@@ -1,0 +1,26 @@
+{
+  "nombre": "Facturas PDF a Excel (AFIP)",
+  "sirve_para": [
+    "Leer facturas electrónicas argentinas en PDF (A, B, C, M) y pasarlas a Excel, CSV o JSON",
+    "Validar CUIT (dígito verificador), sumas neto + IVA + percepciones = total y CAE",
+    "Respaldo con IA (Claude) para PDF escaneados o con formatos que las reglas no entienden",
+    "Procesar o vigilar una carpeta sin repetir archivos (hash) y mover a procesadas/errores",
+    "Enviar cada factura a un ERP o API por webhook con reintentos"
+  ],
+  "palabras_clave_workana": [
+    "facturas PDF",
+    "extraer datos de facturas",
+    "PDF a Excel",
+    "AFIP",
+    "automatizar facturas proveedores",
+    "carga de facturas ERP",
+    "libro IVA compras",
+    "OCR facturas IA",
+    "pdfplumber",
+    "automatización contable pyme"
+  ],
+  "lenguaje": "Python 3.12 (pdfplumber, openpyxl, httpx, reportlab)",
+  "pruebas": "79 pasan, 0 fallan",
+  "horas_adaptar": "2-6",
+  "precio_sugerido_usd": "150-400"
+}

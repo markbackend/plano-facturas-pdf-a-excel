@@ -1,0 +1,24 @@
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Entornos y dependencias
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Datos y salidas (pueden tener facturas reales de clientes)
+datos/
+salida/
+demo/
+entrada/
+*.xlsx
+*.csv
+registro*.json
+*.db
+*.sqlite
+*.sqlite3

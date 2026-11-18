@@ -1,0 +1,12 @@
+[project]
+name = "facturas-pdf-a-excel"
+version = "1.0.0"
+description = "Lectura automática de facturas PDF argentinas (AFIP) a Excel, CSV, JSON o ERP"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [{ name = "markbackend" }]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
